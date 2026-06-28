@@ -1173,7 +1173,7 @@ function cerrarModal(){$('overlay').classList.remove('show');}
 $('btn-run').onclick=correrYMostrar;
 $('btn-nveces').onclick=correrNveces;
 $('btn-hist').onclick=()=>abrirModal('historial','libre');
-$('btn-reset').onclick=()=>{const d={'p-surtidores':3,'p-velocidad':10,'p-llegmin':0.5,'p-llegmax':5,'p-litmin':25,'p-litmax':55,
+$('btn-reset').onclick=()=>{const d={'p-surtidores':2,'p-velocidad':10,'p-llegmin':0.5,'p-llegmax':5,'p-litmin':25,'p-litmax':55,
   'p-espera-min':1,'p-espera-max':4,'p-cap-super':6000,'p-cap-premium':5000,'p-cap-diesel':4000,
   'p-pp-super':2000,'p-pp-premium':1700,'p-pp-diesel':1300,'p-recarga':30,'p-nveces':100};for(const k in d)$(k).value=d[k];aplicarEnVivo();};
 /* cambios en vivo: cualquier parámetro del modelo (no el de nº de corridas) re-simula */
